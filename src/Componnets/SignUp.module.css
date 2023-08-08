@@ -1,0 +1,98 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.container{
+ background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+ min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+padding: 0 !important;
+margin: 0 !important;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+ background-color: rgba(215, 215, 215, 0.781);
+padding: 50px;
+border-radius: 10px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+h2{
+ color: purple;
+ font-weight: bold;
+ font-size: 2rem;
+ margin-bottom: 2rem;
+}
+.formfield{
+ margin: 20px;
+ padding: 10x;
+ display: flex;
+ flex-direction: column;
+}
+.formfield label{
+ margin-right: 5px;
+ font-weight: bold;
+ font-size: 15px;
+ margin-bottom: 10px;
+}
+.formfield input{
+padding: 5px;
+border-radius: 5px;
+border: none;
+box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+width:auto;
+}
+.formfield span{
+ display: flex;
+ flex-direction: column;
+ margin-top: 3px;
+ background-color: brown;
+ width:fit-content;
+ padding: 5px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 11px;
+}
+.accept{
+ margin: 30px;
+ padding: 10x;
+
+}
+.accept input{
+background-color: blueviolet;
+margin-left: 5px;
+}
+.accept span{
+ display: flex;
+ flex-direction: column;
+ margin-top: 5px;
+ background-color: brown;
+ width:fit-content;
+ padding: 5px;
+ border-radius: 5px;
+ color: aliceblue;
+ font-size: 11px;
+}
+.submit{
+ display: flex;
+ justify-content:space-around;
+}
+.butsub{
+ background-color: purple;
+ border: none;
+ padding: 10px;
+ color: aliceblue;
+ border-radius: 5px;
+ cursor: pointer;
+}
+a{
+ color: blueviolet;
+ font-weight: bolder;
+ padding: 10px;
+ margin-left: 2rem;
+ cursor: pointer;
+ text-decoration: none;
+}
